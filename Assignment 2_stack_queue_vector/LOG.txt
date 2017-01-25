@@ -1,0 +1,13 @@
+
+   Development log: Assignment 2
+   Name: Gustavo Munoz
+
+Sep 24, 2014: Investigated each member class fxn description on cplusplus.com
+Sep 25, 2014: Class declarations for vector. Constructors written.
+Sep 26, 2014: Wrote all functions for vector.
+Sep 27, 2014: Tested vector class and debugged.
+Sep 28, 2014: Wrote stack and queue classes.
+Sep 29, 2014: Wrote usestack.cpp and tested stack class. 
+ instructor. Made makefile and submitted.
+
+

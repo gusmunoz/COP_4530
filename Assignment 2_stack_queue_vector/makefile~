@@ -1,0 +1,15 @@
+all: usestack.exe main.exe
+
+Vector.o:
+	g++ ./Vector.h -Wall -g
+Stack.o:
+	g++ ./Stack.h -Wall -g
+Queue.o:
+	g++ ./Queue.h -Wall -g
+usestack.exe: Vector.o Stack.o Queue.o 
+	g++ ./usestack.cpp -Wall -o ./usestack.exe -g Vector.o, Stack.o, Queue.o
+main.exe: Vector.o Stack.o Queue.o 
+	g++ ./main.cpp -Wall -o ./main.exe -g Vector.o, Stack.o, Queue.o
+
+clean:
+	rm -f *.o *.x *~
