@@ -1,0 +1,10 @@
+
+   Development log: Assignment 3
+   Name: Gustavo Munoz
+
+Oct 12, 2014: Write Linked List class with nested classes.
+Oct 13, 2014: Began writing class without iterators.
+Oct 14, 2014: Implemented iterators to rewrite linked list class.
+Oct 15, 2014: changed all Set and Vector STL methods to LL methods
+Oct 16, 2014: Finalized code and submitted.
+
