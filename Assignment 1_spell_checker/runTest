@@ -1,0 +1,13 @@
+cp sampleInput.txt sample.txt
+rm ~/_Dictionary ./_Dictionary
+rm -f *.o *~ Spell
+make
+
+## test starts
+echo "test   ---START---"
+Spell sample.txt < terminalInput.txt |  cat> terminalOutput.txt
+echo -e "\nChecking diff between sample.txt and outputExpected.txt. The files should be identical ...\n"
+diff sample.txt outputExpected.txt
+echo -e "\nChecking diff between terminalOutput.txt and terminalOutputExpected.txt. The files should be identical ...\n"
+diff terminalOutput.txt terminalOutputExpected.txt
+echo -e "test ---DONE---\n\n"

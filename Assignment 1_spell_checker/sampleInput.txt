@@ -1,0 +1,8 @@
+This tests for sngle word correction
+This tests for multipl word correction
+This tests for single word igre
+This tests for multiple wrd ignore
+This tests for adding word to custom dictionary.
+This tests for multipl word correction again
+This tests for multiple wrd ignore again
+We hope the word was added to the dictionary.

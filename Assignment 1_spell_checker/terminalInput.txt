@@ -1,0 +1,9 @@
+s single
+S multiple
+i
+I
+a
+i
+i
+i
+

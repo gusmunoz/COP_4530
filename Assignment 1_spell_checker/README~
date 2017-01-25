@@ -1,0 +1,16 @@
+Spellchecker written in c++
+
+Instructions to use:
+In terminal type "main filename" where filename is the name of the file with potential spelling errors that you would like to fix.
+
+When prompted by the program regarding a misspelled word, the user may type the following to proceed with that option:
+
+"s corrected-word" Swap wrong-word with corrected-word (even if the latter is wrong).
+
+"S corrected-word" Swap the current and all future occurrences of wrong-word with corrected-word (even if the latter is wrong).
+
+"i" Ignore wrong-word (that is, treat it as correct) for the current occurrence alone.
+
+"I" Ignore wrong-word (that is, treat it as correct) for the current occurrence and all future ones.
+
+"a" Add wrong-word to _Dictionary in the user's home directory, creating this file if it is not already present. Also, treat wrong-word as correct

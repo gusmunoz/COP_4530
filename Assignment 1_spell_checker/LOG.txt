@@ -1,0 +1,13 @@
+
+   Development log: Assignment 1
+   Name: Gustavo Munoz
+
+Aug 29, 2014: Wrote dictionary class.
+Sep 01, 2014: Compiled and debugged dictionary.cpp.
+Sep 03, 2014: Implemented main function including <vector> functions (Input file).
+Sep 04, 2014: Wrote loops for user interface arguments for replacing words.
+Sep 08, 2014: Separated dictionary class and main class into header and cpp file, respectively.
+Sep 09, 2014: Compiled .cpp file in linprog and found errors with some g++ '11 functions.
+Sep 10, 2014: Debugged cpp and header files using g++ 98 compatible functions.
+Sep 11, 2014: Created makefile and tar file. Tested all components and submitted.
+
