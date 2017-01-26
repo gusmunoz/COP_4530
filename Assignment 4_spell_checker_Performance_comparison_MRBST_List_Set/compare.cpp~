@@ -1,0 +1,21 @@
+// Gustavo J. Munoz
+// Assignment 5 - Hashing
+// compare.cpp
+
+#ifndef MYDS_1
+#define MYDS_1
+
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include "MyDS.h"
+
+using namespace std;
+
+int main(int argc, char** argv){
+    
+  
+  
+}

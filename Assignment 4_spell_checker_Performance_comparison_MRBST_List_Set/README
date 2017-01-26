@@ -1,0 +1,9 @@
+Performance comparison of Linked List, MRBST, Set
+
+Individual time taken to search if each word in "words" text file is in standard unix dictionary using 3 different containers -- LL, Set, MRBST
+
+Results output per word.
+
+Run "make" clean inside directory then "make"
+
+Run "compare-containers words" in terminal

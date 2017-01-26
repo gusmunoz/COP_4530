@@ -1,0 +1,14 @@
+
+   Development log: Assignment 4
+   Name: Gustavo Munoz
+
+Nov 28, 2014: Begin writing MRBST  (implemented as AVL tree)
+Nov 29, 2014: Continue writing MRBST
+Nov 30, 2014: Change MRBST from AVL to BST with 1 rotation property
+Nov 31, 2014: Finalize MRBST
+Nov 01, 2014: Debug MRBST -- problems with print PREORDER.
+Nov 02, 2014: Debug MRBST -- problems with rotation.
+Nov 03, 2014: Additional work on test.cpp concurrently with debugging rotation problems in MRBST.
+Nov 04, 2014: Begin working on storing of words into 3 containers -- compare.cpp 
+Nov 05, 2014: continue work on compare.cpp as well as debug MRBST rotation fxn.
+Nov 06, 2014: Finalize and submit.  

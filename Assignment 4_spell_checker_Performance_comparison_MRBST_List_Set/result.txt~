@@ -1,0 +1,101 @@
+
+   Result.txt: Assignment 4
+   Name: Gustavo Munoz
+
+Description of file testing for MRBST.h:
+	The MRBST.h source code was tested by inserting various integers in order to have a 
+	well-populated tree structure.  Once the tree is populated, printing was done before 		and after a search() operation in order to see that the tree was only being printed if 		values in the tree existed.
+
+  	Since search() causes a rotation if a right child node exists, (2) cases were tested. 			case (1): search node with right child 
+		case (2): search node without right child
+	This either yielded a rotation or prompted the user that a right child does not exist.
+	
+	The test is as follows:
+
+		    myBST1.push(50);
+		    myBST1.push(25);
+		    myBST1.push(1);
+		    myBST1.push(75);
+		    myBST1.push(30);
+		    myBST1.push(62);
+		    myBST1.push(63);
+		    myBST1.push(24);
+		    myBST1.push(39);
+		    myBST1.push(150);
+		    myBST1.push(160);
+ 
+		Before adding numbers:
+			The tree is empty.
+
+		After adding numbers:
+			50 
+			25 
+			1 
+			24 
+			30 
+			39 
+			75 
+			62 
+			63 
+			150 
+			160 
+
+		After searching for Node 23(does not exist):
+			50 
+			25 
+			1 
+			24 
+			30 
+			39 
+			75 
+			62 
+			63 
+			150 
+			160 
+		
+		After searching for Node 75 (exists w/ right child):
+			50 
+			25 
+			1 
+			24 
+			30 
+			39 
+			150 
+			75 
+			62 
+			63 
+			160 
+
+		After searching for Node 160 (exists w/o right child):
+		Node 160 does not contain a right child. No rotation performed.
+			50 
+			25 
+			1 
+			24 
+			30 
+			39 
+			150 
+			75 
+			62 
+			63 
+			160 
+		
+Relative performance of MRBST versus STL <list> & STL <set>:
+	The relative performance among the (3) types of containers showed that the SET container 		performed the best of the 3 in terms of checking if a word in an input file exists in the 		standard dictionary provided.
+
+	The order of speed is:
+		Fastest:	SET
+		2nd Fastest:	MRBST
+		Slowest:	LIST  	  
+	
+		example:
+		recognised, SET, 1.00136e-05 seconds
+		recognised, LIST, 5.29289e-05 seconds
+		recognised, MRBST, 4.00543e-05 seconds
+
+
+
+
+
+
+
