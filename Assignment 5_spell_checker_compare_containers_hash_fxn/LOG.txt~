@@ -1,0 +1,12 @@
+
+   Development log: Assignment 5
+   Name: Gustavo Munoz
+
+Nov 19, 2014: Begin writing MyDS.cpp & MyDS.h
+Nov 20, 2014: Continue writing MyDS.cpp & MyDS.h
+Nov 21, 2014: Change MRBST from AVL to BST with 1 rotation property
+Nov 22, 2014: Finalize MRBST
+Nov 23, 2014: Debug MRBST -- problems with print PREORDER.
+Nov 24, 2014: Debug MRBST -- problems with rotation.
+Nov 25, 2014: Additional work on test.cpp concurrently with debugging rotation problems in MRBST.
+

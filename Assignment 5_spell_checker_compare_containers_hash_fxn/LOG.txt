@@ -1,0 +1,12 @@
+
+   Development log: Assignment 5
+   Name: Gustavo Munoz
+
+Nov 19, 2014: Begin writing MyDS.cpp & MyDS.h
+Nov 20, 2014: Continue writing MyDS.cpp & MyDS.h
+Nov 21, 2014: Begin writing compare.cpp
+Nov 22, 2014: Continue writing compare.cpp
+Nov 23, 2014: Debug compare.cpp -- problems with cputimer()
+Nov 24, 2014: work on output bugs
+Nov 25, 2014: work on timer bugs, optimizations flags, linprog testing. submit tar and makefile.
+

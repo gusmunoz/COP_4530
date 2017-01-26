@@ -1,0 +1,28 @@
+
+   Result.txt: Assignment 5
+   Name: Gustavo Munoz
+
+Description of Data structure (MyDS) and hash function:
+
+
+Relative performances of the four data structures:
+ set: 	 store dictionary 1.7 s,   search: min 6.9e-06 s,  max 4.1e-05 s, mean 2.1e-05 s
+ hash: 	 store dictionary 0.76 s,  search: min 2.2e-06 s,  max 4.9e-06 s, mean 3.2e-06 s
+ myhash: store dictionary 0.78 s,  search: min 1.9e-06 s,  max 3.7e-06 s, mean 2.8e-06 s
+ myds: 	 store dictionary 2.8 s,   search: min 2e-06 s,    max 2.9e-06 s, mean 2.3e-06 s
+
+For storing the dictionary words, the unordered set using the default hash function and the unordered set using MyHash function performed the best.
+
+The set STL performed at half the speed.
+
+MyDS performed the absolute slowest of all the containers.
+
+The searching performed 3X slower (min time) in the set STL but relatively equal in the other 3 containers. Due to the implementation of a hash table using chaining (particularly linked lists as elements of a vector), the MyDS performance was similar to the STL hashing.
+
+However, the mean times show that the search functionality was fastest using the set STL and slowest using the default unordered set hashing.  This may be due to the fact that the unordered set must search in linear time due to a linked list chaining implementation.
+
+
+
+
+
+

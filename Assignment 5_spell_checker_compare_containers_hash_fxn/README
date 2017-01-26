@@ -1,0 +1,5 @@
+./compare-containers DictionaryName Filename, 
+where DictionaryName and Filename are the names of files containing words separated by whitespaces.
+
+example:
+./compare-containers /usr/share/dict/words sampleInput.txt
